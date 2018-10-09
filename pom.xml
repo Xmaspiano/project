@@ -87,7 +87,7 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass>com.xmasworking.${artifactId}.Application</mainClass>
+                        <mainClass>com.xmasworking.${artifactId}.${artifactId}Application</mainClass>
                     </configuration>
                     <executions>
                         <execution>
